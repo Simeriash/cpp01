@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 09:56:30 by julauren          #+#    #+#             */
-/*   Updated: 2026/09/30 10:39:35 by julauren         ###   ########.fr       */
+/*   Updated: 2026/09/30 11:34:48 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,8 @@ class Zombie
 
 		std::string _name;
 };
+
+Zombie *newZombie(std::string name);
+void randomChump(std::string name);
 
 #endif
