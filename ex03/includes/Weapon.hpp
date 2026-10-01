@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 08:13:54 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/01 09:21:18 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/01 09:59:30 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Weapon
 		Weapon(std::string type);
 		~Weapon(void);
 
-		std::string getType(void) const;
+		const std::string &getType(void) const;
 		void setType(std::string newType);
 
 	private:
