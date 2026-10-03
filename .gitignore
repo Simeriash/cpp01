@@ -1,6 +1,7 @@
 /objects
 *.o
 *.txt
+*.replace
 Shaun_of_the_Dead
 Zombieland
 the_brain
