@@ -5,6 +5,8 @@ CFLAGS := -Wall -Wextra -Werror -std=c++98
 
 SOURCES := main.cpp Harl.cpp
 
+HEADER := /
+
 OBJECTS = $(SOURCES:.cpp=.o)
 
 .PHONY : all clean fclean re
@@ -15,7 +17,7 @@ $(NAME) : $(OBJECTS)
 	$(CC) $(CFLAGS) $(OBJECTS) -o $@
 
 %.o : %.cpp
-	$(CC) $(CFLAGS) -I -c $< -o $@
+	$(CC) $(CFLAGS) -I $(HEADER) -c $< -o $@
 
 clean :
 	rm -rf $(OBJECTS)
