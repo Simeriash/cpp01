@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 16:10:17 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/04 12:34:28 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/04 13:48:44 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ class Harl
 		Harl(void);
 		~Harl(void);
 
-		void complain(std::string level);
+		void complain(const std::string &level);
 
 	private:
 

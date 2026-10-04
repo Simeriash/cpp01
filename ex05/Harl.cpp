@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 16:26:01 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/04 13:37:32 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/04 13:48:57 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ Harl::~Harl(void)
 	return;
 }
 
-void Harl::complain(std::string level)
+void Harl::complain(const std::string &level)
 {
 	std::string request[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 
