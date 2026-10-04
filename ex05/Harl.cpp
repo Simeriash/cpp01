@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 16:26:01 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/04 12:35:45 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/04 13:37:32 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,14 @@ void Harl::complain(std::string level)
 {
 	std::string request[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 
-	typedef void (Harl::*function)(void);
-
-	function tab[4] = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
+	void (Harl::*function[4])(void) = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
 
 	for (int i = 0; i < 4; i++)
 	{
 		if (level == request[i])
 		{
 			std::cout << std::endl;
-			(this->*tab[i])();
+			(this->*function[i])();
 			std::cout << std::endl;
 		}
 	}
