@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 16:45:52 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/04 09:36:06 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/04 12:29:54 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(void)
 
 	while (true)
 	{
-		std::cout << "What's your complain ? (DEBUG, INFO, WARNING or ERROR)" << std::endl;
+		std::cout << GREEN "What's your complain (DEBUG, INFO, WARNING or ERROR)?: " RESET;
 
 		if (!std::getline(std::cin, cmd))
 			break;
