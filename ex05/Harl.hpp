@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 16:10:17 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/03 16:22:38 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/04 12:34:28 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,13 @@
 # define HARL_HPP
 
 #include <string>
+
+#define GREEN "\033[32m"
+#define RED "\033[31m"
+#define B_CYAN "\033[96m"
+#define B_MAGENTA "\033[95m"
+#define B_YELLOW "\033[93m"
+#define RESET "\033[39m"
 
 class Harl
 {
