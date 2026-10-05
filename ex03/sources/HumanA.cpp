@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 09:27:54 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/01 10:33:18 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/05 09:40:25 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <iostream>
 #include <string>
 
-HumanA::HumanA(std::string name, Weapon &Weapon) : _name(name), _weapon(Weapon)
+HumanA::HumanA(std::string name, Weapon &weapon) : _name(name), _weapon(weapon)
 {
 	return;
 }

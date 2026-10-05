@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 11:32:51 by julauren          #+#    #+#             */
-/*   Updated: 2026/09/30 12:05:00 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/05 08:56:03 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 		z[i]->announce();
+
+	randomChump("Bob_2");
 
 	for (i = 0; i < 10; i++)
 		delete z[i];

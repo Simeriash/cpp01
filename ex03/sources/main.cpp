@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 08:08:18 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/01 10:41:17 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/05 09:43:25 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int main(void)
 		bob.attack();
 	}
 	{
-		Weapon club = Weapon("crude spiked club");
+		Weapon club("crude spiked club");
 
 		HumanB jim("Jim");
 		jim.attack();

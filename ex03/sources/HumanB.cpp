@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 09:39:56 by julauren          #+#    #+#             */
-/*   Updated: 2026/10/01 10:33:54 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/05 09:40:46 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void HumanB::attack(void) const
 		std::cout << _name << " attacks with their hands" << std::endl;
 }
 
-void HumanB::setWeapon(Weapon &Weapon)
+void HumanB::setWeapon(Weapon &weapon)
 {
-	_weapon = &Weapon;
+	_weapon = &weapon;
 }

@@ -6,7 +6,7 @@
 /*   By: julauren <julauren@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 10:07:25 by julauren          #+#    #+#             */
-/*   Updated: 2026/09/30 11:10:29 by julauren         ###   ########.fr       */
+/*   Updated: 2026/10/05 08:42:27 by julauren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 void randomChump(std::string name)
 {
-	Zombie zombie = Zombie(name);
+	Zombie zombie(name);
 
 	zombie.announce();
 }
